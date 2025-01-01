@@ -1,0 +1,55 @@
+/* 全局樣式 */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+}
+
+/* 導航欄樣式 */
+.navbar-default {
+    background-color: #FF8C00; /* 深橘色 */
+    border-color: #FF8C00;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #fff; /* 白色文字 */
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color: #FFF5EE; /* 淺白色 */
+    background-color: #FFA500; /* 較亮的橘色 */
+}
+
+.navbar-default .navbar-nav > .dropdown > a .caret {
+    border-top-color: #fff;
+    border-bottom-color: #fff;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #fff;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: #fff;
+}
+
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+    background-color: #FFA500;
+}
+
+.dropdown-menu {
+    background-color: #FF8C00;
+}
+
+.dropdown-menu > li > a {
+    color: #fff;
+}
+
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus {
+    background-color: #FFA500;
+    color: #FFF5EE;
+}
+
+/* 其他樣式可以在下面添加 */
